@@ -1,0 +1,51 @@
+.nav-menu {
+    color: $medium-gray;
+    position: relative;
+    height: 10vh;
+    margin: 0rem 1.95rem;
+
+    &_logo {
+        margin-right: 4rem;
+        padding: 0.5rem 0;
+    }
+
+    &_content {
+        gap: 2.5rem;
+
+        &_item {
+
+            &:hover {
+                color: $almost-black;
+            }
+            
+        }
+    }
+
+    &_account {
+        position: absolute;
+        right: 0;
+        gap: 1rem;
+
+        &_login {
+            padding: 0.75rem 1.5rem;
+            height: 100%;
+
+            &:hover {
+                color: $almost-black;
+            }
+
+        }
+
+        &_register {
+            border: 1px solid $almost-black;
+            border-radius: 1rem;
+            padding: 0.75rem 1.5rem;
+            height: 100%;
+            
+            &:hover {
+                color: $almost-black;
+            }
+
+        }
+    }
+}

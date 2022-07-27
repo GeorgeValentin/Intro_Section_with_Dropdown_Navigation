@@ -10,25 +10,115 @@
   <!-- CSS StyleSheet -->
   <link rel="stylesheet" href="./dist/css/styles.css">
   
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
   <title>Intro section with dropdown navigation</title>
 
 </head>
 <body>
 
-  Features
-  Company
-  Careers
-  About
+    <nav class="nav-menu flex flex-row flex-vertically-centered">
 
-  Login
-  Register
+      <div class="nav-menu_logo flex cursor-pointer">
+        <img src="./images/logo.svg" alt="logo-icon" />
+      </div>
 
-  Make remote work
+      <div class="nav-menu_content flex flex-row">
 
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
+        <div class="nav-menu_content_item flex flex-row nav-menu-btn-font-size cursor-pointer">
+          <span class="nav-menu_content_item_title">
+            Features
+          </span>
+          <span class="nav-menu_content_item_img">
+            <img src="./images/icon-arrow-down.svg" alt="menu-arrow-down" />
+          </span>
+        </div>
 
-  Learn more
+        <div class="nav-menu_content_item flex flex-row nav-menu-btn-font-size cursor-pointer">
+          <span class="nav-menu_content_item_title">
+            Company
+          </span>
+          <span class="nav-menu_content_item_img">
+            <img src="./images/icon-arrow-down.svg" alt="menu-arrow-down" />
+          </span>
+        </div>
+
+        <div class="nav-menu_content_item nav-menu-btn-font-size">
+          <span class="nav-menu_content_item_title cursor-pointer">
+            Careers
+          </span>
+        </div>
+
+        <div class="nav-menu_content_item nav-menu-btn-font-size">
+          <span class="nav-menu_content_item_title cursor-pointer">
+            About
+          </span>
+        </div>
+
+      </div>
+
+      <div class="nav-menu_account flex flex-row nav-menu-btn-font-size">
+        
+        <div class="nav-menu_account_login cursor-pointer">
+          Login
+        </div>  
+        
+        <div class="nav-menu_account_register cursor-pointer">
+          Register
+        </div>
+      
+      </div>
+
+    </nav>
+    
+    <main class="main-component grid centered-container">
+
+      <section class="main-component_content">
+        
+        <h1 class="main-component_content_title">
+          Make remote work
+        </h1>
+        
+        <div class="main-component_content_description">
+          Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </div>
+  
+        <div class="main-component_content_actionBtn cursor-pointer">
+          <a>
+            Learn more
+          </a>
+        </div>
+        
+        <div class="main-component_content_sponsors flex flex-row flex-vertically-centered">
+
+          <span class="sponsor-container">
+            <img src="./images/client-databiz.svg" alt="sponsor-img" />
+          </span>
+
+          <span class="sponsor-container">
+            <img src="./images/client-audiophile.svg" alt="sponsor-img" />
+          </span>
+
+          <span class="sponsor-container">
+            <img src="./images/client-meet.svg" alt="sponsor-img" />
+          </span>
+
+          <span class="sponsor-container">
+            <img src="./images/client-maker.svg" alt="sponsor-img" />
+          </span>
+
+        </div>
+      </section>
+
+      <div class="main-component_image">
+        <img src="./images/image-hero-desktop.png" alt="desktop-main-image" />
+      </div>
+
+    </main>
 
 </body>
 </html>

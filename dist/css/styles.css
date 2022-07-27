@@ -1,1 +1,134 @@
-/*# sourceMappingURL=styles.css.map */
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.centered-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-vertically-centered {
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.nav-menu-btn-font-size {
+  font-size: 0.9rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  background-color: hsl(0deg, 0%, 98%);
+  height: 100vh;
+}
+
+.nav-menu {
+  color: hsl(0deg, 0%, 41%);
+  position: relative;
+  height: 10vh;
+  margin: 0rem 1.95rem;
+}
+.nav-menu_logo {
+  margin-right: 4rem;
+  padding: 0.5rem 0;
+}
+.nav-menu_content {
+  gap: 2.5rem;
+}
+.nav-menu_content_item:hover {
+  color: hsl(0deg, 0%, 8%);
+}
+.nav-menu_account {
+  position: absolute;
+  right: 0;
+  gap: 1rem;
+}
+.nav-menu_account_login {
+  padding: 0.75rem 1.5rem;
+  height: 100%;
+}
+.nav-menu_account_login:hover {
+  color: hsl(0deg, 0%, 8%);
+}
+.nav-menu_account_register {
+  border: 1px solid hsl(0deg, 0%, 8%);
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  height: 100%;
+}
+.nav-menu_account_register:hover {
+  color: hsl(0deg, 0%, 8%);
+}
+
+.main-component {
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  height: 80vh;
+  margin: 1rem 0rem 0rem 8rem;
+  gap: 7rem;
+}
+.main-component_content {
+  width: 100%;
+  height: 81%;
+  position: relative;
+}
+.main-component_content_title {
+  font-size: 4rem;
+  width: 90%;
+  margin-bottom: 2.5rem;
+}
+.main-component_content_description {
+  color: hsl(0deg, 0%, 41%);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  width: 65%;
+}
+.main-component_content_actionBtn {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  width: 10rem;
+  border-radius: 1rem;
+  border: 1.5px solid hsl(0deg, 0%, 8%);
+}
+.main-component_content_actionBtn:hover {
+  color: black;
+  background-color: #fff;
+}
+.main-component_content_actionBtn a {
+  display: inline-block;
+  padding: 1rem 1.75rem;
+}
+.main-component_content_sponsors {
+  position: absolute;
+  bottom: 0;
+  gap: 1.9rem;
+}
+.main-component_image {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.main-component_image img {
+  height: 89%;
+  width: 70%;
+}/*# sourceMappingURL=styles.css.map */
