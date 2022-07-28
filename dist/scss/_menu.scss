@@ -14,10 +14,27 @@
 
         &_item {
 
-            &:hover {
-                color: $almost-black;
+            &_container {
+                &::after {
+                    content: url("../../images/icon-arrow-down.svg");
+                }
+                
+                &:hover {
+                    color: $almost-black;
+                    
+                    &::after {
+                        content: url("../../images/icon-arrow-up.svg");
+                    }
+    
+                }
             }
-            
+
+            &_normal {
+                &:hover {
+                    color: $almost-black;
+                }
+            }
+
         }
     }
 

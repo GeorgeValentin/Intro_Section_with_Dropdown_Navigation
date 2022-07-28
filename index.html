@@ -15,6 +15,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
 
+  <!-- JavaScript -->
+  <script src="./dist/js/script.js"></script>
+
   <title>Intro section with dropdown navigation</title>
 
 </head>
@@ -28,33 +31,89 @@
 
       <div class="nav-menu_content flex flex-row">
 
-        <div class="nav-menu_content_item flex flex-row nav-menu-btn-font-size cursor-pointer">
-          <span class="nav-menu_content_item_title">
-            Features
+        <div id="features-menu-item" class="nav-menu_content_item flex flex-row nav-menu-btn-font-size cursor-pointer">
+          
+          <span class="nav-menu_content_item_container">
+            <span class="nav-menu_content_item_title">
+              Features
+            </span>
+            <span class="nav-menu_content_item_img">
+            </span>
           </span>
-          <span class="nav-menu_content_item_img">
-            <img src="./images/icon-arrow-down.svg" alt="menu-arrow-down" />
-          </span>
+
+          <div class="overlay-features flex flex-column">
+            
+            <div class="overlay-features_item flex flex-row centered-container todo">
+
+              <span class="overlay-features_todo_img">
+                <img src="./images/icon-todo.svg" alt="todo-img" />
+              </span>
+              <span class="overlay-features_todo_text">
+                ToDo List
+              </span>
+
+            </div>
+
+            <div class="overlay-features_item flex flex-row centered-container calendar">
+
+              <span class="overlay-features_todo_img">
+                <img src="./images/icon-calendar.svg" alt="calendar-img" />
+              </span> 
+              <span class="overlay-features_todo_text">
+                Calendar
+              </span>
+
+            </div>
+
+            <div class="overlay-features_item flex flex-row centered-container reminders">
+
+              <span class="overlay-features_todo_img">
+                <img src="./images/icon-reminders.svg" alt="reminders-img" />
+              </span>
+              <span class="overlay-features_todo_text">
+                Reminders
+              </span>
+
+            </div>
+
+            <div class="overlay-features_item flex flex-row centered-container planning">
+
+              <span class="overlay-features_todo_img">
+                <img src="./images/icon-planning.svg" alt="planning-img" />
+              </span>
+              <span class="overlay-features_todo_text">
+                Planning
+              </span>
+
+            </div>
+
+          </div>
+
         </div>
 
         <div class="nav-menu_content_item flex flex-row nav-menu-btn-font-size cursor-pointer">
-          <span class="nav-menu_content_item_title">
-            Company
-          </span>
-          <span class="nav-menu_content_item_img">
-            <img src="./images/icon-arrow-down.svg" alt="menu-arrow-down" />
+          <span class="nav-menu_content_item_container">
+            <span class="nav-menu_content_item_title">
+              Company
+            </span>
+            <span class="nav-menu_content_item_img">
+            </span>
           </span>
         </div>
 
         <div class="nav-menu_content_item nav-menu-btn-font-size">
-          <span class="nav-menu_content_item_title cursor-pointer">
-            Careers
+          <span class="nav-menu_content_item_normal">
+            <span class="nav-menu_content_item_title cursor-pointer">
+              Careers
+            </span>
           </span>
         </div>
 
         <div class="nav-menu_content_item nav-menu-btn-font-size">
-          <span class="nav-menu_content_item_title cursor-pointer">
-            About
+          <span class="nav-menu_content_item_normal">
+            <span class="nav-menu_content_item_title cursor-pointer">
+              About
+            </span>
           </span>
         </div>
 

@@ -1,0 +1,66 @@
+// Colors
+$almost-white: hsl(0, 0%, 98%);
+$medium-gray: hsl(0, 0%, 41%);
+$almost-black: hsl(0, 0%, 8%);
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.centered-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-vertically-centered {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.nav-menu-btn-font-size {
+    font-size: 0.9rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.overlay-features {
+    display: flex;
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    transform: translate(-4.5rem, 1.5rem);
+    gap: 0.5rem;
+    padding: 1rem 1rem 1rem 1.75rem;
+    justify-content: center;
+    align-items: baseline;
+
+    &_item {
+        gap: 0.65rem;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.show-overlay {
+    display: flex;
+}
+
+.hide-overlay {
+    display: none;
+}
