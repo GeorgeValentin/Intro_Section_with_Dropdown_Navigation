@@ -1,0 +1,52 @@
+@media(max-width: 375px) {
+    .mobile-overlay {
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        display: inline-block;
+        width: 0%;
+        margin-left: auto;
+        height: 100%;
+        background-color: $white;
+        transition: all 750ms ease-in-out;
+    }
+    
+    .nav-menu_closeBtn {
+        position: absolute;
+        display: none;
+        z-index: 3;
+        cursor: pointer;
+        right: 2rem;
+    }
+    
+    .show-closeBtn {
+        display: flex;
+    }
+    
+    .close-menu-button {
+        background-image: url("../../images/icon-close-menu.svg");
+        height: 35%;
+    }
+    
+    .show-mobile-overlay {
+        width: 65%;
+    }
+    
+    .hide-mobile-overlay {
+        width: 0%;
+    }
+    
+    .hide-mobile-menu-btn {
+        display: none;
+    }
+    
+    .adjust-page-title-position {
+        position: absolute;
+        left: 0rem;
+    }
+    
+    .adjust-mobile-btn-after-overlay {
+        margin: 0 1rem 0 18rem;
+        width: 11%;
+    }
+}

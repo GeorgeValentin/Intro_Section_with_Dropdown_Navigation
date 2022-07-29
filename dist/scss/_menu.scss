@@ -4,6 +4,10 @@
     height: 10vh;
     margin: 0rem 1.95rem;
 
+    &_closeBtn {
+        display: none;
+    }
+
     &_logo {
         margin-right: 4rem;
         padding: 0.5rem 0;
