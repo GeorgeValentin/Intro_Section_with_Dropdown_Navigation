@@ -1,5 +1,45 @@
 @media(max-width: 375px) {
     .nav-menu-mobile {
         display: inline-block;
+        position: absolute;
+        top: 6rem;
+
+        .features-container {
+
+            &_title {
+
+                &::after {
+                    content: url(../../images/icon-arrow-down.svg);
+                }
+                
+            }
+
+
+        }
+
+        .features-container_content {
+            display: none;
+        }
+
+        &_company {
+
+            .company-container {
+
+                &_title {
+
+                    &::after {
+                        content: url(../../images/icon-arrow-down.svg);
+                    }
+
+                }
+
+            }
+
+            &_content {
+                display: none;
+            }
+
+        }
+
     }
 }

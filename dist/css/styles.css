@@ -333,5 +333,19 @@ body {
 @media (max-width: 375px) {
   .nav-menu-mobile {
     display: inline-block;
+    position: absolute;
+    top: 6rem;
+  }
+  .nav-menu-mobile .features-container_title::after {
+    content: url(../../images/icon-arrow-down.svg);
+  }
+  .nav-menu-mobile .features-container_content {
+    display: none;
+  }
+  .nav-menu-mobile_company .company-container_title::after {
+    content: url(../../images/icon-arrow-down.svg);
+  }
+  .nav-menu-mobile_company_content {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
