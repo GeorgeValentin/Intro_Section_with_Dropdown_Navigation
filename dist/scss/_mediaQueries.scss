@@ -1,0 +1,84 @@
+@media (max-width: 375px) {
+
+    .main-component {
+        grid-template-columns: 1fr;
+        margin: 0;
+        gap: 0;
+        height: 88vh;
+
+        &_content {
+            order: 2;
+            height: 50vh;
+
+            &_title {
+                text-align: center;
+                margin: 2rem auto 1rem;
+                font-size: 2rem;
+            }
+
+            &_description {
+                margin: 0 auto;
+                width: 75%;
+                line-height: 1.5;
+                font-size: 0.8rem;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+
+            &_actionBtn {
+                margin: auto;
+            }
+
+            &_sponsors {
+                gap: 1rem;
+                padding: 0 1rem 5rem;
+                justify-content: space-evenly;
+                
+                .sponsor-container {
+                    width: 25%;
+
+                    img {
+                        width: 100%;
+                    }
+
+                }
+
+            }
+        }
+
+        &_image {
+            order: 1;
+            background-image: url(../../images/image-hero-mobile.png);
+            background-size: 23rem 18.5rem;
+            height: 38vh;
+        }
+    }
+
+    .nav-menu {
+        justify-content: center;
+        margin: 0;
+
+        &_content {
+
+            &_item {
+                display: none;
+            }
+
+        }
+
+        &_account {
+            display: none;
+        }
+
+        &_mobile {
+            display: inline-block;
+            margin-left: 9rem;
+
+            img {
+                cursor: pointer;
+            }
+        }
+
+    }
+
+}

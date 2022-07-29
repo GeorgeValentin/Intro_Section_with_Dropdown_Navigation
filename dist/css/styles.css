@@ -85,6 +85,10 @@
   display: none;
 }
 
+.hide-nav-menu-mobile {
+  display: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -104,6 +108,9 @@ body {
 .nav-menu_logo {
   margin-right: 4rem;
   padding: 0.5rem 0;
+}
+.nav-menu_mobile {
+  display: none;
 }
 .nav-menu_content {
   gap: 2.5rem;
@@ -186,6 +193,10 @@ body {
   gap: 1.9rem;
 }
 .main-component_image {
+  background-image: url("../../images/image-hero-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 26rem 35rem;
   height: 100%;
   width: 100%;
   margin: auto;
@@ -194,4 +205,67 @@ body {
 .main-component_image img {
   height: 89%;
   width: 70%;
+}
+
+@media (max-width: 375px) {
+  .main-component {
+    grid-template-columns: 1fr;
+    margin: 0;
+    gap: 0;
+    height: 88vh;
+  }
+  .main-component_content {
+    order: 2;
+    height: 50vh;
+  }
+  .main-component_content_title {
+    text-align: center;
+    margin: 2rem auto 1rem;
+    font-size: 2rem;
+  }
+  .main-component_content_description {
+    margin: 0 auto;
+    width: 75%;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .main-component_content_actionBtn {
+    margin: auto;
+  }
+  .main-component_content_sponsors {
+    gap: 1rem;
+    padding: 0 1rem 5rem;
+    justify-content: space-evenly;
+  }
+  .main-component_content_sponsors .sponsor-container {
+    width: 25%;
+  }
+  .main-component_content_sponsors .sponsor-container img {
+    width: 100%;
+  }
+  .main-component_image {
+    order: 1;
+    background-image: url(../../images/image-hero-mobile.png);
+    background-size: 23rem 18.5rem;
+    height: 38vh;
+  }
+  .nav-menu {
+    justify-content: center;
+    margin: 0;
+  }
+  .nav-menu_content_item {
+    display: none;
+  }
+  .nav-menu_account {
+    display: none;
+  }
+  .nav-menu_mobile {
+    display: inline-block;
+    margin-left: 9rem;
+  }
+  .nav-menu_mobile img {
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=styles.css.map */
