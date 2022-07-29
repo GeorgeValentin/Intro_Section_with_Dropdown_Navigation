@@ -101,6 +101,10 @@ body {
   height: 100vh;
 }
 
+.nav-menu-mobile {
+  display: none;
+}
+
 .nav-menu {
   color: hsl(0deg, 0%, 41%);
   position: relative;
@@ -324,5 +328,10 @@ body {
   .adjust-mobile-btn-after-overlay {
     margin: 0 1rem 0 18rem;
     width: 11%;
+  }
+}
+@media (max-width: 375px) {
+  .nav-menu-mobile {
+    display: inline-block;
   }
 }/*# sourceMappingURL=styles.css.map */
