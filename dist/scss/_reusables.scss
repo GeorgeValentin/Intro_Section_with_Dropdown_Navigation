@@ -8,6 +8,10 @@ $white: #fff;
     color: $almost-black;
 }
 
+.text-centered {
+    text-align: center;
+}
+
 .flex {
     display: flex;
 }
@@ -89,10 +93,34 @@ $white: #fff;
     display: flex;
 }
 
+.show-mobile-content {
+    display: flex !important;
+}
+
 .hide-overlay {
     display: none;
 }
 
 .hide-nav-menu-mobile {
     display: none;
+}
+
+.clicked {
+    text-align: center;
+}
+
+.features-showcase-account-position {
+    top: 23rem !important;
+}
+
+.company-showcase-account-position {
+    top: 19rem !important;
+}
+
+.showcase-account-position {
+    top: 32rem !important;
+}
+
+.showcase-account-position-decreased {
+    top: 14rem !important;
 }

@@ -14,6 +14,7 @@
                 text-align: center;
                 margin: 2rem auto 1rem;
                 font-size: 2rem;
+                width: 85%;
             }
 
             &_description {
@@ -30,8 +31,8 @@
             }
 
             &_sponsors {
-                gap: 1rem;
-                padding: 0 1rem 5rem;
+                gap: 2rem;
+                padding: 0 1rem 5.5rem;
                 justify-content: space-evenly;
 
                 .sponsor-container {
@@ -49,7 +50,7 @@
         &_image {
             order: 1;
             background-image: url(../../images/image-hero-mobile.png);
-            background-size: 23rem 18.5rem;
+            background-size: 24rem 18.5rem;
             height: 38vh;
         }
     }

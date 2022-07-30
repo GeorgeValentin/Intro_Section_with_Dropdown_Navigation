@@ -3,27 +3,45 @@
         display: inline-block;
         position: absolute;
         top: 6rem;
+        margin-left: 1.5rem;
+        width: 90%;
 
-        .features-container {
-
-            &_title {
-
-                &::after {
-                    content: url(../../images/icon-arrow-down.svg);
-                }
                 
-            }
-
-
+        &_careers {
+            cursor: pointer;
         }
 
-        .features-container_content {
-            display: none;
+        &_about {
+            cursor: pointer;
+        }
+
+        &_content {
+            gap: 1.75rem;
+        }
+
+        &_account {
+            position: absolute;
+            top: 12rem;
+            left: 0.8rem;
+            gap: 1.5rem;
+            width: 80%;
+
+            &_login {
+                cursor: pointer;
+            }
+
+            &_register {
+                cursor: pointer;
+                border: 1.5px solid $almost-black;
+                padding: 0.75rem;
+                border-radius: 0.5rem;
+            }
         }
 
         &_company {
 
             .company-container {
+                cursor: pointer;
 
                 &_title {
 
@@ -37,9 +55,34 @@
 
             &_content {
                 display: none;
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem 1rem 0rem;
             }
 
         }
 
     }
+
+    .features-container {
+        cursor: pointer;
+
+        &_content {
+            display: none;
+            flex-direction: column;
+            gap: 1.25rem;
+            margin: 1.5rem 1rem 0rem;
+        }
+
+        &_title {
+
+            &::after {
+                content: url(../../images/icon-arrow-down.svg);
+            }
+            
+        }
+
+    }
+
 }
+
