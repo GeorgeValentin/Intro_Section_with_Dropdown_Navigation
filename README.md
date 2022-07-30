@@ -8,3 +8,35 @@
 #### - HTML
 #### - Scss
 #### - JavaScript
+
+## Screenshots
+
+### Desktop
+<p align="center">
+    <img
+        src="./ScreenShots/Desktop_ScreenShot.png"
+        alt="Website Desktop Screenshot"
+    >
+</p>
+
+<p align="center">
+    <img
+        src="./screenshots/Desktop_ScreenShot_with_DropDowns.png"
+        alt="Website Desktop Screenshot Expanded"
+    >
+</p>
+
+### Mobile Phone
+<p align="center">
+    <img
+        src="./screenshots/Mobile_ScreenShot.png"
+        alt="Website Mobile Screenshot"
+    >
+</p>
+
+<p align="center">
+    <img
+        src="./screenshots/Mobile_ScreenShot_with_DropDowns.png"
+        alt="Website Mobile Screenshot Expanded"
+    >
+</p>
